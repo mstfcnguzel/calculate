@@ -1,0 +1,67 @@
+.function-key {
+  background: #f3f6ef;
+  border: 1px solid #e5eade;
+  border-radius: 8px;
+  color: #537161;
+  height: 38px;
+  font-size: 17px;
+}
+.key {
+  height: 56px;
+  border: 1px solid #e2e7df;
+  background: #fcfdfb;
+  color: #2d4136;
+  border-radius: 9px;
+  font-size: 21px;
+  font-weight: 500;
+  box-shadow: 0 2px 1px #223b2a04;
+}
+.key:hover,
+.function-key:hover {
+  background: #edf3e9;
+  border-color: #bdd0c1;
+}
+.key:active,
+.function-key:active {
+  background: #e1ecdf;
+}
+.key-clear {
+  grid-column: span 2;
+  text-align: left;
+  padding-left: 21px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #89634a;
+  background: #f8f2e9;
+  border-color: #eee4d5;
+}
+.key-clear:hover {
+  background: #f1e6d6;
+  border-color: #decbb1;
+}
+.key-utility {
+  background: #f2f5ef;
+  font-size: 20px;
+  color: #647a6b;
+}
+.key-operator {
+  background: #eaf3ed;
+  border-color: #d8e6da;
+  color: #146b5b;
+  font-size: 25px;
+}
+.key-equals {
+  background: #146b5b;
+  border-color: #146b5b;
+  color: white;
+  font-size: 30px;
+}
+.key-equals:hover {
+  background: #0c594b;
+  border-color: #0c594b;
+}
+@media (max-width: 640px) {
+  .key {
+    height: 57px;
+  }
+}

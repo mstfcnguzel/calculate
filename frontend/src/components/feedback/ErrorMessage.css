@@ -1,0 +1,31 @@
+.error-state {
+  margin-top: 85px;
+}
+.error-icon {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  color: #a7372e;
+  background: #fae9e1;
+  border-radius: 12px;
+  margin-bottom: 22px;
+  font-size: 22px;
+}
+.error-state h2 {
+  font-size: 20px;
+}
+.error-state p {
+  color: #934b3b;
+}
+
+.error-position {
+  margin-top: 10px;
+  display: block;
+  color: #934b3b;
+}
+@media (max-width: 640px) {
+  .error-state {
+    margin-top: 25px;
+  }
+}

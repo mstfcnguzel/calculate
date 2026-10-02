@@ -1,0 +1,24 @@
+.copy-control {
+  margin-top: 12px;
+}
+.copy-result {
+  background: transparent;
+  color: #146b5b;
+  border: 1px solid #c1d4c1;
+  border-radius: 7px;
+  padding: 10px 13px;
+  font-size: 11px;
+}
+.copy-result:hover {
+  background: #e3ecdc;
+}
+.copy-feedback {
+  display: block;
+  margin-top: 7px;
+  font-size: 11px;
+  line-height: 1.6;
+  color: #52715f;
+}
+.copy-feedback:empty {
+  display: none;
+}

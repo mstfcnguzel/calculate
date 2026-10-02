@@ -1,0 +1,11 @@
+.git
+**/node_modules
+**/dist
+**/coverage
+**/*.log
+backend/calculator
+backend/coverage.out
+backend/coverage.html
+reports
+.env
+.env.*
